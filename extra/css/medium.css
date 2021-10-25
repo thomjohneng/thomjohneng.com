@@ -1,0 +1,73 @@
+#mediumBtn {
+  width: 180px;
+  height: 36px;
+  background-color: #5F0F40;
+  text-align: center;
+  padding: 9px 0;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#mediumBtn:hover {
+  background-color: #9A031E;
+  text-decoration: none;
+}
+
+#cardItem {
+  margin-top: 6px;
+}
+
+#cardRow {
+  height: 90px;
+  width: 360px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 0px;
+}
+
+#cardColumnRow {
+  width: 100%;
+}
+
+.cardTitle, .cardTitle a {
+  text-align: left;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #9A031E;
+  font-weight: 400;
+  z-index: 10;
+}
+
+#cardLeft, #cardRight, .card-body {
+  height: 80px;
+  padding: 0px;
+}
+
+.cardText {
+  text-align: left;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 10px;
+  color: #9A031E;
+  line-height: 1.4;
+  font-weight: 300;
+  z-index: 10;
+}
+
+.cardText p {
+  margin: 0px;
+}
+
+.card-body {
+  overflow-y: hidden;
+  padding-left: 5px;
+}
+
+#cardImg {
+  height: 80px;
+  width: 80px;
+}

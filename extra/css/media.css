@@ -1,0 +1,743 @@
+/*
+Universal colors:
+Background (BlueGray): #F1F3F9;
+Purple: #5F0F40;
+Red: #9A031E;
+Bright Orange: FB8B24;
+Deep Orange: E36414;
+Deep Blue: 0F4C5C;
+Lavender Purple: E1E5F2;
+*/
+
+/* BEGIN MEDIA ONLY STYLES */
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+  #aboutButton, #ramblingsButton, #instaButton {
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  #aboutButton:hover, #ramblingsButton:hover, #instaButton:hover {
+    color: #5F0F40;
+  }
+  #aboutButton.clicked, #ramblingsButton.clicked, #instaButton.clicked {
+    color: #ffaa1f;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  #title {
+    top: 30px;
+    font-size: 58px;
+  }
+
+  #description {
+    top: 30px;
+    font-size: 26px;
+    color: #5F0F40;
+    letter-spacing: 4pt;
+  }
+
+  #menuItems {
+    top: 50px;
+    font-weight: 100;
+    letter-spacing: 1pt;
+    position: relative;
+  }
+
+  #aboutBox, #whiteBox {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 650px;
+    height: 600px;
+    margin-top: 20px;
+  }
+
+  #medium, #instaBox {
+    width: 800px;
+    height: 700px;
+  }
+  #medium {
+    margin-top: 5px;
+  }
+  #mediumBtn {
+    width: 200px;
+    height: 50px;
+    padding: 9px;
+    font-size: 24px;
+  }
+
+  /* MEDIUM CARD Attributes */
+  #cardItem {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  #cardRow {
+    height: 150px;
+    width: 600px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+  }
+  .cardTitle, .cardTitle a {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  #cardLeft, #cardRight, .card-body {
+    height: 140px;
+    padding: 0px;
+  }
+  .cardText {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 200;
+    width: 2;
+  }
+  #cardImg {
+    height: 140px;
+    width: 140px;
+  }
+
+  #bottom {
+    width: 100vw;
+    height: 150px;
+  }
+
+  img.absolute {
+    width: 2500px;
+    bottom: 0px;
+    position: absolute;
+  }
+
+  #ramen {
+    height: 350px;
+    display: block;
+    position: absolute;
+    bottom: 39px;
+    margin-left: 15vw;
+    margin-right: auto;
+  }
+}
+
+@media all and (device-width: 1366px) and (device-height: 1024px) {
+  #aboutButton, #ramblingsButton, #instaButton {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  #aboutButton:hover, #ramblingsButton:hover, #instaButton:hover {
+    color: #5F0F40;
+  }
+  #aboutButton.clicked, #ramblingsButton.clicked, #instaButton.clicked {
+    color: #ffaa1f;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  #title {
+    top: 20px;
+    font-size: 58px;
+  }
+
+  #description {
+    top: 20px;
+    font-size: 22px;
+    color: #5F0F40;
+    letter-spacing: 4pt;
+  }
+
+  #menuItems {
+    top: 30px;
+    font-weight: 100;
+    letter-spacing: 1pt;
+    position: relative;
+  }
+
+  #aboutBox, #whiteBox {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 700px;
+    height: 600px;
+    margin-top: 20px;
+  }
+
+  #medium, #instaBox {
+    width: 800px;
+    height: 500px;
+  }
+  #medium {
+    margin-top: 5px;
+  }
+  #mediumBtn {
+    width: 200px;
+    height: 50px;
+    padding: 9px;
+    font-size: 24px;
+  }
+
+  /* MEDIUM CARD Attributes */
+  #cardRow {
+    height: 150px;
+    width: 600px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0px;
+  }
+  .cardTitle, .cardTitle a {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  #cardLeft, #cardRight, .card-body {
+    height: 140px;
+    padding: 0px;
+  }
+  .cardText {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 200;
+    width: 2;
+  }
+  #cardImg {
+    height: 140px;
+    width: 140px;
+  }
+
+  #bottom {
+    width: 100vw;
+    height: 150px;
+  }
+
+  img.absolute {
+    width: 2500px;
+    bottom: 0px;
+    position: absolute;
+  }
+
+  #ramen {
+    height: 300px;
+    display: block;
+    position: absolute;
+    bottom: 51px;
+    margin-left: 15vw;
+    margin-right: auto;
+  }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  #aboutButton, #ramblingsButton, #instaButton {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  #aboutButton:hover, #ramblingsButton:hover, #instaButton:hover {
+    color: #5F0F40;
+  }
+  #aboutButton.clicked, #ramblingsButton.clicked, #instaButton.clicked {
+    color: #ffaa1f;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  #title {
+    top: 30px;
+    font-size: 48px;
+  }
+  #description {
+    top: 30px;
+    font-size: 20px;
+    color: #5F0F40;
+    letter-spacing: 4pt;
+  }
+  #menuItems {
+    top: 40px;
+    letter-spacing: 1pt;
+    position: relative;
+  }
+  #aboutBox, #whiteBox {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 560px;
+    height: 360px;
+    margin-top: 20px;
+  }
+  #medium, #instaBox {
+    width: 600px;
+    height: 600px;
+  }
+  #medium {
+    margin-top: 5px;
+  }
+
+  /* MEDIUM CARD Attributes */
+  #cardRow {
+    height: 110px;
+    width: 440px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0px;
+  }
+  .cardTitle, .cardTitle a {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  #cardLeft, #cardRight, .card-body {
+    height: 100px;
+    padding: 0px;
+  }
+  .cardText {
+    font-size: 11px;
+    line-height: 1.4;
+    font-weight: 200;
+    width: 2;
+  }
+  #cardImg {
+    height: 100px;
+    width: 100px;
+  }
+
+  #bottom {
+    width: 100vw;
+    height: 90px;
+  }
+
+  img.absolute {
+    width: 1920px;
+  }
+
+  #ramen {
+    height: 250px;
+    display: block;
+    position: absolute;
+    bottom: 28px;
+    margin-left: 15vw;
+    margin-right: auto;
+  }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) {
+  #aboutButton, #ramblingsButton, #instaButton {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  #aboutButton:hover, #ramblingsButton:hover, #instaButton:hover {
+    color: #5F0F40;
+  }
+  #aboutButton.clicked, #ramblingsButton.clicked, #instaButton.clicked {
+    color: #ffaa1f;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  #title {
+    top: 10px;
+    font-size: 38px;
+  }
+  #description {
+    top: 10px;
+    font-size: 18px;
+    color: #5F0F40;
+    letter-spacing: 4pt;
+  }
+  #menuItems {
+    top: 20px;
+    letter-spacing: 1pt;
+    position: relative;
+  }
+  #aboutBox, #whiteBox {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 560px;
+    height: 360px;
+    margin-top: 20px;
+  }
+  #medium, #instaBox {
+    width: 500px;
+    height: 350px;
+  }
+  #medium {
+    margin-top: 5px;
+  }
+
+  /* MEDIUM CARD Attributes */
+  #cardRow {
+    height: 90px;
+    width: 360px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0px;
+  }
+  .cardTitle, .cardTitle a {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  #cardLeft, #cardRight, .card-body {
+    height: 80px;
+    padding: 0px;
+  }
+  .cardText {
+    font-size: 11px;
+    line-height: 1.4;
+    font-weight: 200;
+    width: 2;
+  }
+  #cardImg {
+    height: 80px;
+    width: 80px;
+  }
+
+  #bottom {
+    width: 100vw;
+    height: 90px;
+  }
+
+  img.absolute {
+    width: 1920px;
+  }
+
+  #ramen {
+    height: 250px;
+    display: block;
+    position: absolute;
+    bottom: 28px;
+    margin-left: 15vw;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-device-width: 767px) {
+  #aboutButton, #ramblingsButton, #instaButton {
+    padding: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  #aboutButton:hover, #ramblingsButton:hover, #instaButton:hover {
+    color: #5F0F40;
+  }
+  #aboutButton.clicked, #ramblingsButton.clicked, #instaButton.clicked {
+    color: #ffaa1f;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  #title {
+    top: 20px;
+    font-size: 38px;
+  }
+
+  #description {
+    top: 20px;
+    font-size: 13px;
+    color: #5F0F40;
+    letter-spacing: 2pt;
+  }
+
+  #menuItems {
+    top: 30px;
+    font-size: 14px;
+    font-weight: 150;
+    letter-spacing: 1pt;
+    position: relative;
+  }
+
+  #aboutBox, #medium, #instaBox {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    height: 360px;
+  }
+
+  #aboutBox, #mediumBox, #instaBox {
+    margin-top: 10px;
+  }
+
+  #medium {
+    margin-top: 5px;
+  }
+
+  /* MEDIUM CARD Attributes */
+  #cardRow {
+    height: 90px;
+    width: 360px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0px;
+  }
+  .cardTitle, .cardTitle a {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  #cardLeft, #cardRight, .card-body {
+    height: 80px;
+    padding: 0px;
+  }
+  .cardText {
+    font-size: 11px;
+    line-height: 1.4;
+    font-weight: 200;
+    width: 2;
+  }
+  #cardImg {
+    height: 80px;
+    width: 80px;
+  }
+
+  #bottom {
+    width: 100vw;
+    height: 90px;
+  }
+
+  img.absolute {
+    width: 1920px;
+  }
+
+  #ramen {
+    height: 250px;
+    display: block;
+    position: absolute;
+    bottom: 28px;
+    margin-left: 15vw;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-device-height: 736px) {
+  #aboutButton, #ramblingsButton, #instaButton {
+    padding: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  #aboutButton:hover, #ramblingsButton:hover, #instaButton:hover {
+    color: #5F0F40;
+  }
+  #aboutButton.clicked, #ramblingsButton.clicked, #instaButton.clicked {
+    color: #ffaa1f;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  #title {
+    top: 5px;
+    font-size: 30px;
+  }
+
+  #description {
+    top: 5px;
+    font-size: 13px;
+    color: #5F0F40;
+    letter-spacing: 2pt;
+  }
+
+  #menuItems {
+    top: 10px;
+    font-size: 12px;
+    font-weight: 150;
+    letter-spacing: 1pt;
+    position: relative;
+  }
+
+  #mediumBtn {
+    width: 150px;
+    height: 28px;
+    padding: 6px;
+    font-size: 12px;
+  }
+  #medium {
+    margin-top: 0px;
+  }
+
+  #aboutBox, #medium, #instaBox, #whiteBox {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    height: 310px;
+  }
+
+  #aboutBox, #mediumBox, #instaBox {
+    margin-top: 10px;
+  }
+
+  #medium {
+    margin-top: 5px;
+  }
+
+  /* MEDIUM CARD Attributes */
+  #cardRow {
+    height: 90px;
+    width: 360px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0px;
+  }
+  .cardTitle, .cardTitle a {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  #cardLeft, #cardRight, .card-body {
+    height: 80px;
+    padding: 0px;
+  }
+  .cardText {
+    font-size: 11px;
+    line-height: 1.4;
+    font-weight: 200;
+    width: 2;
+  }
+  #cardImg {
+    height: 80px;
+    width: 80px;
+  }
+
+  #bottom {
+    width: 100vw;
+    height: 90px;
+  }
+
+  img.absolute {
+    width: 1920px;
+  }
+
+  #ramen {
+    height: 200px;
+    display: block;
+    position: absolute;
+    bottom: 41px;
+    margin-left: 15vw;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-device-height: 568px) {
+  #aboutButton, #ramblingsButton, #instaButton {
+    padding: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  #aboutButton:hover, #ramblingsButton:hover, #instaButton:hover {
+    color: #5F0F40;
+  }
+  #aboutButton.clicked, #ramblingsButton.clicked, #instaButton.clicked {
+    color: #ffaa1f;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  #title {
+    top: 0px;
+    font-size: 28px;
+  }
+
+  #mediumBtn {
+    width: 150px;
+    height: 24px;
+    padding: 4px;
+    font-size: 12px;
+  }
+  #medium {
+    margin-top: 0px;
+  }
+
+  #description {
+    top: 2px;
+    font-size: 12px;
+    color: #5F0F40;
+    letter-spacing: 1pt;
+  }
+
+  #menuItems {
+    top: 2px;
+    font-size: 11px;
+    font-weight: 150;
+    letter-spacing: 1pt;
+    position: relative;
+  }
+
+  #aboutBox, #medium, #instaBox, #whiteBox {
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    height: 270px;
+  }
+
+  /* MEDIUM CARD Attributes */
+  #cardRow {
+    height: 75px;
+    width: 300px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0px;
+  }
+  .cardTitle, .cardTitle a {
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  #cardLeft, #cardRight, .card-body {
+    height: 68px;
+    padding: 0px;
+  }
+  .cardText {
+    font-size: 9px;
+    line-height: 1.4;
+    font-weight: 200;
+  }
+  #cardImg {
+    height: 68px;
+    width: 68px;
+  }
+
+  #bottom {
+    width: 100vw;
+    height: 70px;
+  }
+
+  img.absolute {
+    width: 1920px;
+  }
+
+  #ramen {
+    height: 150px;
+    display: block;
+    position: absolute;
+    bottom: 33px;
+    margin-left: 15vw;
+    margin-right: auto;
+  }
+}
