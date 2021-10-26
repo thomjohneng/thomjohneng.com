@@ -11,9 +11,12 @@ Lavender Purple: E1E5F2;
 
 /* BEGIN MEDIA ONLY STYLES */
 @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+  #header {
+    height: 240px;
+  }
   #aboutButton, #ramblingsButton, #instaButton {
     padding: 10px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
     letter-spacing: 1px;
   }
@@ -29,18 +32,18 @@ Lavender Purple: E1E5F2;
   }
   #title {
     top: 30px;
-    font-size: 58px;
+    font-size: 48px;
   }
 
   #description {
-    top: 30px;
+    top: 35px;
     font-size: 26px;
     color: #5F0F40;
     letter-spacing: 4pt;
   }
 
   #menuItems {
-    top: 50px;
+    top: 40px;
     font-weight: 100;
     letter-spacing: 1pt;
     position: relative;
@@ -125,6 +128,9 @@ Lavender Purple: E1E5F2;
 }
 
 @media all and (device-width: 1366px) and (device-height: 1024px) {
+  #header {
+    height: 240px;
+  }
   #aboutButton, #ramblingsButton, #instaButton {
     padding: 10px;
     font-size: 20px;
@@ -235,6 +241,9 @@ Lavender Purple: E1E5F2;
 }
 
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  #header {
+    height: 220px;
+  }
   #aboutButton, #ramblingsButton, #instaButton {
     padding: 10px;
     font-size: 20px;
@@ -332,6 +341,9 @@ Lavender Purple: E1E5F2;
 }
 
 @media all and (device-width: 1024px) and (device-height: 768px) {
+  #header {
+    height: 180px;
+  }
   #aboutButton, #ramblingsButton, #instaButton {
     padding: 10px;
     font-size: 16px;
@@ -530,6 +542,9 @@ Lavender Purple: E1E5F2;
 }
 
 @media all and (max-device-height: 736px) {
+  #header {
+    height: 130px;
+  }
   #aboutButton, #ramblingsButton, #instaButton {
     padding: 10px;
     font-weight: 400;
@@ -641,6 +656,10 @@ Lavender Purple: E1E5F2;
 }
 
 @media all and (max-device-height: 568px) {
+  #header {
+    height: 110px;
+  }
+
   #aboutButton, #ramblingsButton, #instaButton {
     padding: 10px;
     font-weight: 400;
