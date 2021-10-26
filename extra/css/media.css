@@ -543,6 +543,119 @@ Lavender Purple: E1E5F2;
 }
 
 /*Begin Specific CSS for Phones*/
+@media all and (max-device-height: 844px) {
+  #header {
+    height: 140px;
+  }
+  #aboutButton, #ramblingsButton, #instaButton {
+    padding: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  #aboutButton:hover, #ramblingsButton:hover, #instaButton:hover {
+    color: #5F0F40;
+  }
+  #aboutButton.clicked, #ramblingsButton.clicked, #instaButton.clicked {
+    color: #ffaa1f;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  #title {
+    top: 10px;
+    font-size: 30px;
+  }
+
+  #description {
+    top: 10px;
+    font-size: 13px;
+    color: #5F0F40;
+    letter-spacing: 2pt;
+  }
+
+  #menuItems {
+    top: 15px;
+    font-size: 12px;
+    font-weight: 150;
+    letter-spacing: 1pt;
+    position: relative;
+  }
+
+  #mediumBtn {
+    width: 150px;
+    height: 28px;
+    padding: 6px;
+    font-size: 12px;
+  }
+  #medium {
+    margin-top: 0px;
+  }
+
+  #aboutBox, #medium, #instaBox, #whiteBox {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    height: 310px;
+  }
+
+  #aboutBox, #mediumBox, #instaBox {
+    margin-top: 10px;
+  }
+
+  #medium {
+    margin-top: 5px;
+  }
+
+  /* MEDIUM CARD Attributes */
+  #cardRow {
+    height: 90px;
+    width: 360px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 0px;
+  }
+  .cardTitle, .cardTitle a {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  #cardLeft, #cardRight, .card-body {
+    height: 80px;
+    padding: 0px;
+  }
+  .cardText {
+    font-size: 11px;
+    line-height: 1.4;
+    font-weight: 200;
+    width: 2;
+  }
+  #cardImg {
+    height: 80px;
+    width: 80px;
+  }
+
+  #bottom {
+    width: 100vw;
+    height: 70px;
+  }
+
+  img.absolute {
+    width: 1920px;
+  }
+
+  #ramen {
+    height: 150px;
+    display: block;
+    position: absolute;
+    bottom: 33px;
+    margin-left: 15vw;
+    margin-right: auto;
+  }
+}
 
 /*IPhone X*/
 @media all and (device-width: 375px) and (device-height: 812px) {
