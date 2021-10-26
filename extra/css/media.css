@@ -755,7 +755,7 @@ Lavender Purple: E1E5F2;
 
   #bottom {
     width: 100vw;
-    height: 90px;
+    height: 70px;
   }
 
   img.absolute {
@@ -763,10 +763,10 @@ Lavender Purple: E1E5F2;
   }
 
   #ramen {
-    height: 200px;
+    height: 150px;
     display: block;
     position: absolute;
-    bottom: 41px;
+    bottom: 33px;
     margin-left: 15vw;
     margin-right: auto;
   }
@@ -869,7 +869,7 @@ Lavender Purple: E1E5F2;
 
   #bottom {
     width: 100vw;
-    height: 90px;
+    height: 70px;
   }
 
   img.absolute {
@@ -877,10 +877,10 @@ Lavender Purple: E1E5F2;
   }
 
   #ramen {
-    height: 200px;
+    height: 150px;
     display: block;
     position: absolute;
-    bottom: 41px;
+    bottom: 33px;
     margin-left: 15vw;
     margin-right: auto;
   }
